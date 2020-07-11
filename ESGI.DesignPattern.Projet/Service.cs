@@ -9,11 +9,13 @@ namespace ESGI.DesignPattern.Projet
         public List<Trip> GetTripsByUser(User user)
         {
             List<Trip> tripList = new List<Trip>();
-            User loggedUser = UserSession.GetInstance().GetLoggedUser();
+            //User loggedUser = UserSession.GetInstance().GetLoggedUser();
+            User loggedUser = UserSession.GetInstance().User;
             bool isFriend = false;
             if (loggedUser != null)
             {
-                foreach (User friend in user.GetFriends())
+                //foreach (User friend in user.GetFriends())
+                foreach (User friend in user.friends)
                 {
                     if (friend.Equals(loggedUser))
                     {
