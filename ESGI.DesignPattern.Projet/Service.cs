@@ -4,13 +4,15 @@ using System.Text;
 
 namespace ESGI.DesignPattern.Projet
 {
-    public class Service
+    //Make service class static
+    //public class Service
+    public static class Service
     {
-        public List<Trip> GetTripsByUser(User user)
+        public static List<Trip> GetTripsByUser(User user)
         {
             List<Trip> tripList = new List<Trip>();
             //User loggedUser = UserSession.GetInstance().GetLoggedUser();
-            User loggedUser = UserSession.GetInstance().User;
+            User loggedUser = Session.GetInstance().User;
             bool isFriend = false;
             if (loggedUser != null)
             {

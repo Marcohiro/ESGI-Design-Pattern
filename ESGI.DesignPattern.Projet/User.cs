@@ -4,20 +4,19 @@ using System.Text;
 
 namespace ESGI.DesignPattern.Projet
 {
-    public class UserSession
+    //On transforme le UserSession en Interface utilisable par le service
+    public interface IUserSession
+    //public class UserSession
     {
-        private static readonly UserSession userSession = new UserSession();
+        //private static readonly UserSession userSession = new UserSession();
         public User User { get; set; }
 
+        //private UserSession(){}
 
-        private UserSession()
-        {
-        }
-
-        public static UserSession GetInstance()
-        {
-            return userSession;
-        }
+        //public static UserSession GetInstance()
+        //{
+        //    return userSession;
+        //}
 
         //public bool IsUserLoggedIn(User user)
         //{
@@ -35,6 +34,35 @@ namespace ESGI.DesignPattern.Projet
         //    throw new DependendClassCallDuringUnitTestException(
         //        "UserSession.GetLoggedUser() should not be called in an unit test");
         //}
+
+    }
+
+    //ON réinjecte le User dans UserSession
+    public class Session : IUserSession
+    {
+        public Session() { }
+        public User User { get; set; }
+
+        private static readonly Session session = new Session();
+        public static Session GetInstance()
+        {
+            return session;
+        }
+
+        //STATE Design pattern
+
+        public void Connect(User user)
+        {
+            if (this.User == null) this.User = user;
+            else throw new DependendClassCallDuringUnitTestException("Can't connect if an user is already connected");
+        }
+
+        public void Disconnect(User user)
+        {
+            if (this.User != null) this.User = null;
+            else throw new DependendClassCallDuringUnitTestException("Can't connect if an user is already connected");
+
+        }
     }
 
     public class User

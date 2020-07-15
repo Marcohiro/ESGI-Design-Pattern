@@ -1,0 +1,13 @@
+C:\Users\petit\Downloads\ESGI.DesignPattern.Projet-20200630T122704Z-001\ESGI.DesignPattern.Projet\ESGI.DesignPattern.Projet\bin\Debug\netcoreapp3.1\ESGI.DesignPattern.Projet.exe
+C:\Users\petit\Downloads\ESGI.DesignPattern.Projet-20200630T122704Z-001\ESGI.DesignPattern.Projet\ESGI.DesignPattern.Projet\bin\Debug\netcoreapp3.1\ESGI.DesignPattern.Projet.deps.json
+C:\Users\petit\Downloads\ESGI.DesignPattern.Projet-20200630T122704Z-001\ESGI.DesignPattern.Projet\ESGI.DesignPattern.Projet\bin\Debug\netcoreapp3.1\ESGI.DesignPattern.Projet.runtimeconfig.json
+C:\Users\petit\Downloads\ESGI.DesignPattern.Projet-20200630T122704Z-001\ESGI.DesignPattern.Projet\ESGI.DesignPattern.Projet\bin\Debug\netcoreapp3.1\ESGI.DesignPattern.Projet.runtimeconfig.dev.json
+C:\Users\petit\Downloads\ESGI.DesignPattern.Projet-20200630T122704Z-001\ESGI.DesignPattern.Projet\ESGI.DesignPattern.Projet\bin\Debug\netcoreapp3.1\ESGI.DesignPattern.Projet.dll
+C:\Users\petit\Downloads\ESGI.DesignPattern.Projet-20200630T122704Z-001\ESGI.DesignPattern.Projet\ESGI.DesignPattern.Projet\bin\Debug\netcoreapp3.1\ESGI.DesignPattern.Projet.pdb
+C:\Users\petit\Downloads\ESGI.DesignPattern.Projet-20200630T122704Z-001\ESGI.DesignPattern.Projet\ESGI.DesignPattern.Projet\obj\Debug\netcoreapp3.1\ESGI.DesignPattern.Projet.csprojAssemblyReference.cache
+C:\Users\petit\Downloads\ESGI.DesignPattern.Projet-20200630T122704Z-001\ESGI.DesignPattern.Projet\ESGI.DesignPattern.Projet\obj\Debug\netcoreapp3.1\ESGI.DesignPattern.Projet.AssemblyInfoInputs.cache
+C:\Users\petit\Downloads\ESGI.DesignPattern.Projet-20200630T122704Z-001\ESGI.DesignPattern.Projet\ESGI.DesignPattern.Projet\obj\Debug\netcoreapp3.1\ESGI.DesignPattern.Projet.AssemblyInfo.cs
+C:\Users\petit\Downloads\ESGI.DesignPattern.Projet-20200630T122704Z-001\ESGI.DesignPattern.Projet\ESGI.DesignPattern.Projet\obj\Debug\netcoreapp3.1\ESGI.DesignPattern.Projet.csproj.CoreCompileInputs.cache
+C:\Users\petit\Downloads\ESGI.DesignPattern.Projet-20200630T122704Z-001\ESGI.DesignPattern.Projet\ESGI.DesignPattern.Projet\obj\Debug\netcoreapp3.1\ESGI.DesignPattern.Projet.dll
+C:\Users\petit\Downloads\ESGI.DesignPattern.Projet-20200630T122704Z-001\ESGI.DesignPattern.Projet\ESGI.DesignPattern.Projet\obj\Debug\netcoreapp3.1\ESGI.DesignPattern.Projet.pdb
+C:\Users\petit\Downloads\ESGI.DesignPattern.Projet-20200630T122704Z-001\ESGI.DesignPattern.Projet\ESGI.DesignPattern.Projet\obj\Debug\netcoreapp3.1\ESGI.DesignPattern.Projet.genruntimeconfig.cache
