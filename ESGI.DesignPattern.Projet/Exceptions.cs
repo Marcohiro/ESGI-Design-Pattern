@@ -21,4 +21,11 @@ namespace ESGI.DesignPattern.Projet
     {
 
     }
+
+    //Added Exception
+    [Serializable]
+    public class UserLoggedInException : System.Exception
+    {
+
+    }
 }

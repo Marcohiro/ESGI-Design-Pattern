@@ -45,7 +45,7 @@ namespace ESGI.DesignPattern.Projet.Tests
         {
             User user = new User();
             Session.GetInstance().Connect(user);
-            Assert.Throws<DependendClassCallDuringUnitTestException>(() => Session.GetInstance().Connect(user));
+            Assert.Throws<UserLoggedInException>(() => Session.GetInstance().Connect(user));
             Session.GetInstance().Disconnect(user);
         }
 
@@ -55,7 +55,7 @@ namespace ESGI.DesignPattern.Projet.Tests
             User user = new User();
             Session.GetInstance().Connect(user);
             Session.GetInstance().Disconnect(user);
-            Assert.Throws<DependendClassCallDuringUnitTestException>(() => Session.GetInstance().Disconnect(user));
+            Assert.Throws<UserNotLoggedInException>(() => Session.GetInstance().Disconnect(user));
         }
 
     }

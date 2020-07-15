@@ -54,13 +54,13 @@ namespace ESGI.DesignPattern.Projet
         public void Connect(User user)
         {
             if (this.User == null) this.User = user;
-            else throw new DependendClassCallDuringUnitTestException("Can't connect if an user is already connected");
+            else throw new UserLoggedInException();
         }
 
         public void Disconnect(User user)
         {
             if (this.User != null) this.User = null;
-            else throw new DependendClassCallDuringUnitTestException("Can't connect if an user is already connected");
+            else throw new UserNotLoggedInException();
 
         }
     }
